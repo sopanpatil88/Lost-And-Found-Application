@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+.navbar{
+    height: 6vh;
+    /* border: solid red; */
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.leftnavarticle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid red; */
+    width: 20%;
+}
+
+.rightnavarticle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: solid red; */
+    width: 55%;
+    
+   
+}
+.rightnavarticle a{
+    text-decoration: none;
+    color:black;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#Register{
+    display:inline-block;
+    text-align: center;
+    background-color: rgb(38, 167, 38);
+    padding : 5px 5px;
+    border-radius:2px;
+  color:rgb(245, 239, 214) ;
+}
+
+body{
+    background-color: white;
+}
+
+#heading{
+    color: brown;
+}
+
+
+
+
+
+
+
+
+.hero{
+    
+    
+
+}
+
+.heroMessage{
+    height: 40vh;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-size: 150%;
+}
+
+.heroMessage h1{
+    color: rgb(69, 86, 43);
+}
+.heroMessage p{
+    color: rgba(54, 54, 54, 0.603);
+}
+
+.heroAnimations{
+    animation: moveUp 2s ease-out;
+}
+
+@keyframes moveUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.heroLogo{
+    height: 30vh;
+    /* border: solid red; */
+    display:flex;
+}
+
+.lostLeft{
+    width: 50%;
+    /* border: solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.lostImage{
+   height: 80%;
+   /* width:30%; */
+    /* border: solid red; */
+}
+
+.lostContainer{
+    height: 30%;
+    width: 30%;
+    /* border: solid red; */
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.lostText{
+    color:white;
+    font-size: 12px;
+}
+
+.foundRight{
+    width:50%;
+    /* border:solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foundContainer{
+    height: 30%;
+    width: 30%;
+    /* border: solid red; */
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.foundImage{
+    height: 80%;
+}
+
+.foundText{
+    color: white;
+    font-size: 12px;
+}

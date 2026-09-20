@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost And Found</title>
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <article class="leftnavarticle">
+                <img th:src="@{/assets/lost and found logo.png}" alt="logo" class="logo">
+                <h3 id="heading">Lost And Found</h3>
+            </article>
+            <article class="rightnavarticle">
+                <a href="#" >🛖Home</a>
+                <a href="#" >Report Lost</a>
+                <a href="#" >Report Found</a>
+                <a href="#" >Search</a>
+                <a href="#" >About</a>
+                <a href="#" >Login</a>
+                <a href="#" id="Register">Register</a>
+            </article>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <article class="heroMessage">
+                <h1 class="heroAnimations">LOST OR FOUND</h1>
+                <h1 class="heroAnimations">SOMETHING ?</h1>
+                <p class="heroAnimations">Help Reunite Belonging in Our Community
+                    <br>
+                    Report Items Or Search For What's Missing.
+                </p>
+            </article>
+            <article class="heroLogo">
+                <div class="lostLeft">
+                    <img class="lostImage" th:src="@{/assets/image.png}" alt="LostImage">
+                    <div class="lostContainer">
+                        <h4 class="lostText">REPORT LOST ITEM --- > </h4>
+                        <P class="lostText">(Submit Details to Start The Search)</P>
+                    </div>
+                </div>
+                <div class="foundRight">
+                    <div class="foundContainer">
+                        <h4 class="foundText">REPORT FOUND ITEM --- ></h4>
+                        <P class="foundText">Submit Details to Help Someone</P>
+                    </div>
+                    <img class="foundImage" th:src="@{/assets/Gemini_Generated_Image_z9glooz9glooz9gl.png}" alt="FoundImage">
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
