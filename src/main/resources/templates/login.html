@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" th:href="@{/css/login.css}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <article class="leftnavarticle">
+                <img th:src="@{/assets/lost and found logo.png}" alt="logo" class="logo">
+                <h3 id="heading">Lost And Found</h3>
+            </article>
+            <article class="rightnavarticle">
+                <a href="#" >🛖Home</a>
+                <a href="#" >Report Lost</a>
+                <a href="#" >Report Found</a>
+                <a href="#" >Search</a>
+                <a href="#" >About</a>
+                <a th:href="@{/login}">Login</a>
+                <a href="#" id="Register">Register</a>
+            </article>
+        </nav>
+    </header>
+
+
+
+    <section class="login">
+        <div class="mainDiv">
+            <h2>Login here</h2>
+            <form action="" class="form">
+                <div class="inputs">
+                    <label  for="Email">Enter email here </label>
+                    <br>
+                    <input class="individual" type="email" id="Email" name="email">
+                </div>
+                <br>
+                <div class="inputs">
+                    <label  for="Password">Enter password here </label>
+                    <br>
+                    <input class="individual" type="password" id="Password" name="password">
+                </div>
+                <br>
+                <div class="inputs">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
